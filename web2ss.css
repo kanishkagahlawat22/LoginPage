@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+  }
+   
+  .good-company {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+   
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+   
+  .header h2 {
+    font-size: 24px;
+    color: #333;
+    margin: 0;
+  }
+   
+  .header p {
+    font-size: 16px;
+    color: #666;
+  }
+   
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+   
+  .grid-item {
+    background-color: #e0e0e0;
+    width: 100%;
+    padding-bottom: 100%;
+    border-radius: 4px; 
+    
+  }
+    /*background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' preserveAspectRatio='none' viewBox='0 0 100 100'><path d='M100 0 L0 100 ' stroke='black' stroke-width='1'/><path d='M0 0 L100 100 ' stroke='black' stroke-width='1'/></svg>");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%, auto;
+  border: black 2px;
+  width: 300px;*/
+  
+   
+  .expanded-view {
+    display: flex;
+    gap: 20px;
+  }
+   
+  .large-box {
+    flex: 2;
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    min-height: 200px;
+  }
+   
+  .text-box {
+    flex: 3;
+  }
+   
+  .text-box h3 {
+    font-size: 18px;
+    color: #333;
+    margin-top: 0;
+  }
+   
+  .text-box p {
+    font-size: 14px;
+    color: #666;
+  }
+   
+  .icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #f45b42;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
